@@ -100,7 +100,6 @@ public class RootLayoutController implements Initializable {
      */
     @FXML
     private void handleExit() {
-        System.out.println("javafxwebviewsample.view.RootLayoutController.handleExit()");
         System.exit(0);
     }
 
