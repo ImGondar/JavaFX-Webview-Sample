@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="960.0" stylesheets="@AppTheme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxwebviewsample.view.RootLayoutController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Home">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#handleIndex" text="个人主页" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleIndexBlog" text="个人博客" />
+               </items></Menu>
+            <Menu mnemonicParsing="false" text="GitHub">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#handleGithubHome" text="GutHub首页" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleGithubMe" text="个人GitHub" />
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Other">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#handleOtherBaidu" text="百度" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleOtherWeibo" text="微薄" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Exit">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#handleExit" text="退出" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>
