@@ -23,7 +23,7 @@ public class MainApp extends Application {
     private Stage primaryStage;
     private BorderPane rootLayout;
 
-    public static final String APP_NAME = "宏观经济";
+    public static final String APP_NAME = "A JavaFX FXML Application";
 
     private static final String[] URLS = new String[]{
         "http://www.helloarron.com/",
